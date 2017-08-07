@@ -1,0 +1,14 @@
+myList = ["combine crushed cookies, peanut butter cups, and chocolate chips, and add a spoonful to the bottom of each paper cup", "scoop the ice cream into a large bowl of a mixer, then pour in the remaining chocolate-cookie mix. mix gently and then spoon the ice cream into the cups and carefully insert a popsicle stick into each pop.", "freeze until ice cream has solidified. tear off the paper cups to serve."]
+dict = {'crushed cookies': 14, 'peanut butter cups': 15, 'chocolate chips':'1 cup', 'vanilla ice cream': '1/2 gallon'}
+
+print ("dict['crushed cookies']: ", dict['crushed cookies'])
+print ("dict['peanut butter cups']: ", dict['peanut butter cups'])
+print ("dict['chocolate chips']: ", dict["chocolate chips"])
+print ("dict['vanilla ice cream']: ", dict["vanilla ice cream"])
+
+# print (myList[0])
+# print (myList[1])
+# print (myList[2])
+
+for i in range(2):
+    print(myList[i])
